@@ -5,6 +5,7 @@ def join_nested_strings(src)
   src.length.times do |index1|
     src[index1].length.times do |index2|
       if src[index1][index2].is_a?(String)
+        new_string << " "
         new_string << src[index1][index2]
       end
     end
