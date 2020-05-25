@@ -8,5 +8,5 @@ def join_nested_strings(src)
         new_string << src[index1][index2]
     end
   end
-  
+  new_string
 end
